@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testSuite" duration-ms="79480" started-at="2018-04-10T17:24:49Z" finished-at="2018-04-10T17:26:08Z">
+    <groups>
+    </groups>
+    <test name="MytestCase" duration-ms="79480" started-at="2018-04-10T17:24:49Z" finished-at="2018-04-10T17:26:08Z">
+      <class name="com.sfbay.apitest.SearchSaveAPITest">
+        <test-method status="PASS" signature="Init()[pri:0, instance:com.sfbay.apitest.SearchSaveAPITest@520a3426]" name="Init" is-config="true" duration-ms="13" started-at="2018-04-10T22:54:49Z" finished-at="2018-04-10T22:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.sfbay.apitest.SearchSaveAPITest@520a3426]" name="loginTest" duration-ms="4175" started-at="2018-04-10T22:54:49Z" finished-at="2018-04-10T22:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="searchTest()[pri:0, instance:com.sfbay.apitest.SearchSaveAPITest@520a3426]" name="searchTest" duration-ms="2629" started-at="2018-04-10T22:54:53Z" finished-at="2018-04-10T22:54:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchFilterTest()[pri:0, instance:com.sfbay.apitest.SearchSaveAPITest@520a3426]" name="searchFilterTest" duration-ms="2589" started-at="2018-04-10T22:54:56Z" finished-at="2018-04-10T22:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFilterTest -->
+        <test-method status="PASS" signature="searchSaveTest()[pri:0, instance:com.sfbay.apitest.SearchSaveAPITest@520a3426]" name="searchSaveTest" duration-ms="6708" started-at="2018-04-10T22:54:58Z" finished-at="2018-04-10T22:55:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSaveTest -->
+      </class> <!-- com.sfbay.apitest.SearchSaveAPITest -->
+      <class name="com.sfbay.apitest.SearchSaveAPINegativeTest">
+        <test-method status="PASS" signature="Init()[pri:0, instance:com.sfbay.apitest.SearchSaveAPINegativeTest@3e9b1010]" name="Init" is-config="true" duration-ms="1" started-at="2018-04-10T22:55:36Z" finished-at="2018-04-10T22:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method status="PASS" signature="loginTestNegative()[pri:0, instance:com.sfbay.apitest.SearchSaveAPINegativeTest@3e9b1010]" name="loginTestNegative" duration-ms="1828" started-at="2018-04-10T22:55:36Z" finished-at="2018-04-10T22:55:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestNegative -->
+        <test-method status="PASS" signature="searchTestNegative()[pri:0, instance:com.sfbay.apitest.SearchSaveAPINegativeTest@3e9b1010]" name="searchTestNegative" duration-ms="3169" started-at="2018-04-10T22:55:38Z" finished-at="2018-04-10T22:55:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTestNegative -->
+        <test-method status="PASS" signature="searchFilterTestNegative()[pri:0, instance:com.sfbay.apitest.SearchSaveAPINegativeTest@3e9b1010]" name="searchFilterTestNegative" duration-ms="3" started-at="2018-04-10T22:55:41Z" finished-at="2018-04-10T22:55:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFilterTestNegative -->
+        <test-method status="PASS" signature="searchSaveTestNegative()[pri:0, instance:com.sfbay.apitest.SearchSaveAPINegativeTest@3e9b1010]" name="searchSaveTestNegative" duration-ms="6289" started-at="2018-04-10T22:55:41Z" finished-at="2018-04-10T22:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSaveTestNegative -->
+      </class> <!-- com.sfbay.apitest.SearchSaveAPINegativeTest -->
+      <class name="com.sfbay.uitest.LoginNegativeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sfbay.uitest.LoginNegativeTest@6c3708b3]" name="setUp" is-config="true" duration-ms="12359" started-at="2018-04-10T22:55:47Z" finished-at="2018-04-10T22:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:com.sfbay.uitest.LoginNegativeTest@6c3708b3]" name="loginPage" is-config="true" duration-ms="3616" started-at="2018-04-10T22:56:00Z" finished-at="2018-04-10T22:56:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="loginNegativeTest1()[pri:0, instance:com.sfbay.uitest.LoginNegativeTest@6c3708b3]" name="loginNegativeTest1" duration-ms="1342" started-at="2018-04-10T22:56:03Z" finished-at="2018-04-10T22:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest1 -->
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:com.sfbay.uitest.LoginNegativeTest@6c3708b3]" name="loginPage" is-config="true" duration-ms="405" started-at="2018-04-10T22:56:05Z" finished-at="2018-04-10T22:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="loginNegativeTest2()[pri:0, instance:com.sfbay.uitest.LoginNegativeTest@6c3708b3]" name="loginNegativeTest2" duration-ms="1102" started-at="2018-04-10T22:56:05Z" finished-at="2018-04-10T22:56:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest2 -->
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:com.sfbay.uitest.LoginNegativeTest@6c3708b3]" name="loginPage" is-config="true" duration-ms="433" started-at="2018-04-10T22:56:06Z" finished-at="2018-04-10T22:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="loginNegativeTest3()[pri:0, instance:com.sfbay.uitest.LoginNegativeTest@6c3708b3]" name="loginNegativeTest3" duration-ms="1111" started-at="2018-04-10T22:56:07Z" finished-at="2018-04-10T22:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sfbay.uitest.LoginNegativeTest@6c3708b3]" name="tearDown" is-config="true" duration-ms="680" started-at="2018-04-10T22:56:08Z" finished-at="2018-04-10T22:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sfbay.uitest.LoginNegativeTest -->
+      <class name="com.sfbay.uitest.SearchResultTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sfbay.uitest.SearchResultTest@18eed359]" name="setUp" is-config="true" duration-ms="14505" started-at="2018-04-10T22:55:05Z" finished-at="2018-04-10T22:55:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageDisplayTest()[pri:0, instance:com.sfbay.uitest.SearchResultTest@18eed359]" name="loginPageDisplayTest" duration-ms="5805" started-at="2018-04-10T22:55:20Z" finished-at="2018-04-10T22:55:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageDisplayTest -->
+        <test-method status="PASS" signature="loginPageFunctionTest()[pri:0, instance:com.sfbay.uitest.SearchResultTest@18eed359]" name="loginPageFunctionTest" duration-ms="4685" started-at="2018-04-10T22:55:25Z" finished-at="2018-04-10T22:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageFunctionTest -->
+        <test-method status="PASS" signature="searchResultTest()[pri:0, instance:com.sfbay.uitest.SearchResultTest@18eed359]" name="searchResultTest" duration-ms="3048" started-at="2018-04-10T22:55:30Z" finished-at="2018-04-10T22:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchResultTest -->
+        <test-method status="PASS" signature="searchDeleteTest()[pri:0, instance:com.sfbay.uitest.SearchResultTest@18eed359]" name="searchDeleteTest" duration-ms="1234" started-at="2018-04-10T22:55:33Z" finished-at="2018-04-10T22:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDeleteTest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.sfbay.uitest.SearchResultTest@18eed359]" name="logout" duration-ms="909" started-at="2018-04-10T22:55:34Z" finished-at="2018-04-10T22:55:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sfbay.uitest.SearchResultTest@18eed359]" name="tearDown" is-config="true" duration-ms="754" started-at="2018-04-10T22:55:35Z" finished-at="2018-04-10T22:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sfbay.uitest.SearchResultTest -->
+    </test> <!-- MytestCase -->
+  </suite> <!-- testSuite -->
+</testng-results>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="testSuite" parallel="tests">
+	<listeners>
+		<listener class-name="com.sfbay.extentreport.ExtentReporterNG" />
+		<listener class-name="com.sfbay.extentreport.TestListener" />
+	</listeners>
+	<test verbose="2" name="MytestCase" parallel="none"
+		preserve-order="true">
+		<classes>
+			<class name="com.sfbay.apitest.SearchSaveAPITest">
+				<methods>
+					<include name="loginTest"></include>
+					<include name="searchTest"></include>
+					<include name="searchFilterTest"></include>
+					<include name="searchSaveTest"></include>
+				</methods>
+			</class>
+			<class name="com.sfbay.uitest.SearchResultTest">
+				<methods>
+					<include name="loginPageDisplayTest"></include>
+					<include name="loginPageFunctionTest"></include>
+					<include name="searchResultTest"></include>
+					<include name="searchDeleteTest"></include>
+					<include name="logout"></include>
+				</methods>
+			</class>
+			<class name="com.sfbay.apitest.SearchSaveAPINegativeTest">
+			<methods>
+				<include name="loginTestNegative"></include>
+				<include name="searchTestNegative"></include>
+				<include name="searchFilterTestNegative"></include>
+				<include name="searchSaveTestNegative"></include>
+			</methods>
+		</class>
+			<class name="com.sfbay.uitest.LoginNegativeTest">
+				<methods>
+					<include name="loginNegativeTest1"></include>
+					<include name="loginNegativeTest2"></include>
+					<include name="loginNegativeTest3"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+
+
