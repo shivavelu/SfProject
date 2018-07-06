@@ -6,7 +6,7 @@
 		<listener class-name="com.sfbay.extentreport.TestListener" />
 	</listeners>
 	<test verbose="2" name="MytestCase" parallel="none"
-		preserve-order="false">
+		preserve-order="true">
 		<classes>
 			<class name="com.sfbay.apitest.SearchSaveAPITest">
 				<methods>
